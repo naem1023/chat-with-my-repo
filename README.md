@@ -1,4 +1,6 @@
 # Chat with my repository
+
+**!! Still in development. Insufficient functionality !!**  
 Develop while talking to your code repository.
 
 ## Requirements

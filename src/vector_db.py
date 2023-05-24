@@ -1,7 +1,5 @@
-import deeplake
 import openai
 import os
-import pathspec
 import subprocess
 from langchain.document_loaders import TextLoader
 from langchain.embeddings.openai import OpenAIEmbeddings
@@ -10,7 +8,6 @@ from langchain.vectorstores import DeepLake
 
 # Set the OpenAI API key
 openai.api_key = os.environ.get("OPENAI_API_KEY")
-
 
 def clone_repository(repo_url, local_path):
     """Clone the specified git repository to the given local path."""

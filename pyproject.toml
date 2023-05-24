@@ -7,9 +7,15 @@ readme = "README.md"
 packages = [{include = "chat_with_my_repo"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 langchain = "^0.0.176"
 gradio = "^3.32.0"
+openai = "^0.27.7"
+ipykernel = "^6.23.1"
+python-dotenv = "^1.0.0"
+tiktoken = "^0.4.0"
+faiss-cpu = "^1.7.4"
+
 
 
 [build-system]
