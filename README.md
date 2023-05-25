@@ -1,7 +1,7 @@
-# Chat with my repository
+# 📺 Chat with my repository
 
 **!! Still in development. Insufficient functionality !!**  
-Develop while talking to your code repository.
+Develop code while talking to your code repository.
 
 ## Features
 ### LLM Support
@@ -10,11 +10,10 @@ Develop while talking to your code repository.
 ### Conversation
 - [x] Langchain RetrievalConversatinoChain
 - [ ] Langchain Conversation Agent for Chat Models
-
+- [ ] Langchain AutoGPT
 ### DB
 - [x] FAISS
 - [ ] Milvus-lite
-
 
 ## Requirements
 - Install dependency
