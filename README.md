@@ -15,6 +15,6 @@ poetry install
 
 ## Run
 
-``sh
+```sh
 python main.py --repo-path <your_repo_path> --azure
 ```
