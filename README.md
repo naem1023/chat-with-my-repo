@@ -3,6 +3,19 @@
 **!! Still in development. Insufficient functionality !!**  
 Develop while talking to your code repository.
 
+## Features
+### LLM Support
+- [x] Azure OpenAI API, OpenAI API
+- [ ] Huggingface model
+### Conversation
+- [x] Langchain RetrievalConversatinoChain
+- [ ] Langchain Conversation Agent for Chat Models
+
+### DB
+- [x] FAISS
+- [ ] Milvus-lite
+
+
 ## Requirements
 - Install dependency
 - Add your ".env"
